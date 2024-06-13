@@ -46,6 +46,15 @@ describe("getHashDigest()", () => {
 
     [
       "test string",
+      "sha256",
+      "base10",
+      undefined,
+      "005235381463668163392512309505443100118542140340343910204596361514123295217621",
+    ],
+    ["test string", "sha256", "base10", 9, "295217621"],
+
+    [
+      "test string",
       "sha512",
       "base64",
       undefined,
